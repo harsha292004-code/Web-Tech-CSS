@@ -5,21 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Tag selectors */
+        h1{
+            font-size: 20px;
+            color: blue;
+        }
+        span{
+            font-size: 30px;
+            color: brown;
+        }
+        /* Id selectors */
+        #bro{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            background-color: bisque;
+            color: teal;
+        }
+        /* Class selectors */
+        .header{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            background-color: bisque;
+            color: red;
+        }
+        h3,h4,h2,h5{
+            background-color: yellowgreen;
+            color: chocolate;
+        }
+        /* Universal selector */
+        *{
+            background-color: brown;
+        }
 
+        input{
+            background-color: aqua;
+            font-family:cursive ;
+            color: red;
+        }
+        input[type="email"]{
+            background-color: blanchedalmond;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: teal;
+        }
     </style>
 </head>
 <body align="center">
     <!-- Tag or name selctor -->
     <h1>LO<span>VE</span></h1>    
 
-
     <!-- id selector -->
-     <h1>Positivity</h1>
+     <h1 id="bro">Positivity</h1>
      <hr>
     <!-- Class selector -->
      <h2 class="head">Believe</h2>
      <p class="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo id eveniet natus eum totam 
         fugiat ipsam repudiandae, voluptatum, iusto nemo fugit quisquam ipsum illum commodi veritatis
          iure blanditiis! Corrupti ipsam voluptatum at?</p>
+
+         <!-- class selectors -->
+          <h2 class="header">Faith</h2>
+          <p class="header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat non assumenda nisi neque aspernatur at dolores molestias? Beatae, possimus similique.</p>
+          <hr>
+
+          <!-- Group selectors -->
+           <h3>11:11 Powerful</h3>
+           <h4>11:11 Powerful</h4>
+           <h2>11:11 Powerful</h2>
+           <h5>11:11 Powerful</h5>
+
+           <!-- Attribute and type selector example -->
+            <input type="text" name="" id="">
+            <input type="email" name="" id="">
+
 </body>
 </html>
