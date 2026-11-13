@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* border properties  */
+        h1{
+            border: 20px red solid;
+            border-radius: 5%;
+            border-color: aqua red green blue;
+            outline: 5px black solid;
+        }
+        /* shadows are used to add depth and visual effects to the elements and the text  */
+        .yo{
+            /* right shadow then shadow at bottom and how shadow is scattered and then color
+            for inner shadow must use inset as a starting attribute for box shadow */
+            box-shadow: 30px 20px 30px blue  ;
+        }
+        #love{
+            /* horizontal offset vertical offset blur radius color */
+            filter: drop-shadow(4px 8px 10px yellow);
+        }
+
+    #love2{
+         /* horizontal offset vertical offset blur radius color */
+        text-shadow: 2px 2px 6px blue;
+        background-color: grey;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Love joy and Bliss</h1>
+    </div>
+    <br><br><br><br><br><br>
+    <p class="yo" style="font-size: 50px;">Everthing will come to you when u are working on yourself</p>
+    <br><br><br><br><br>
+    <p id="love" style="font-size: 100px;">Detachment is the Key to success</p>
+    <h2 id="love2" style="font-size: 40px;">You matter the most</h2>
+</body>
+</html>
